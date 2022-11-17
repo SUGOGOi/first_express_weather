@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sumsum</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/pngtree-correct-icon-image_1267804.jpg" type="image/jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="/index.html">Sumsum</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="/weather.html">Weather</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="/about.html">About us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="main_content">
+        <form action="" class="temp_form">
+            <input type="text" id="cityName" placeholder="Enter city name" autocomplete="off">
+            <input type="submit" value="search" id="submitBtn">
+        </form>
+      </div>
+      <div class="wInfo">
+        <!-- <div class="top_layer">
+            <p id="day">Tuesday</p>
+            <p id="date">30 Aug</p>
+        </div> -->
+        <div class="main_layer">
+            <p id="out">Get output here</p>
+            <div class="middle_layer data_hide">
+                <p ><span id="temp">0</span> <sup>0</sup>C</p> 
+                <p id="statu"> <i class="fa fa-cloude" aria-hidden="true"></i></p>
+            </div>
+        </div>
+      </div>
+      <footer>
+        <p>©️ 2022 sumsum gogoi<br>
+        <!-- <a href="">hege@example.com</a></p> -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
